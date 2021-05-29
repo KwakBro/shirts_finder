@@ -19,3 +19,15 @@ __`torch_Training.py`__
 > __Output__ : `Torch Savepoint` File 및 `Torch State dictionary` File   
 > 이미지 및 세부사항 변경은 Class 수정하기.   
 > [Make Training Set](https://github.com/KwakBro/AI-ML/tree/master/COCO_Creator)
+>    
+> ```  
+> src
+>  ├─ clothes   
+>  │     ├─ shirts-1.jpg   
+>  │     └─ shirts-2.jpg   
+>  │         ...   
+>  └─ masks   
+>        ├─ shirts-1.jpg   
+>        └─ shirts-2.jpg   
+>            ...   
+> ```
