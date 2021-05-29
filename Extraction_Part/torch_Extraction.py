@@ -22,7 +22,6 @@ class Extraction_Model():
         self.transform = Extraction_Model.get_transform(train=False)
 
     def get_shirts_pic(self, PIL_img, image_save=False):
-        torch.cuda.empty_cache()
         size_w, size_h = PIL_img.size
 
         if (size_w > 600) or (size_h > 600):
@@ -37,10 +36,9 @@ class Extraction_Model():
         try:
             # Error Case
             if torch.max(prediction[0]['scores'].cpu()).item() < 0.85:
-                print("BAD CASE")
                 return None
                 
-        except(RuntimeError):
+        except RuntimeError:
             return None
 
         np_img = img.mul(255).byte().cpu().numpy()          # ndarray(3, w, h)
@@ -106,8 +104,6 @@ class Extraction_Model():
      
         if image_save:
             cv2.imwrite("result_item.jpg", np_img[ymin:ymax, xmin:xmax])
-
-        torch.cuda.empty_cache()
         
         return np_img[ymin:ymax, xmin:xmax]     # ndarray ( w, h, 3)
 

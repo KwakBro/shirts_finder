@@ -13,6 +13,8 @@ class ColorDescriptor:
     def __init__(self, bins):
         self.bins = bins
     
+    # Describe 를 바꿔보자.
+
     def describe(self, image):
         image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
         features = []
@@ -96,9 +98,7 @@ class Funcs(ColorDescriptor, Searcher):
 
     def searching_with_npimg(self, query_img):
         query_feature = self.describe(query_img)
-        result = self._search(query_feature, limit = 5)
-
-        cv2.imwrite("query.png", query_img)
+        result = self._search(query_feature, limit = 3)
 
         return result
 
@@ -108,7 +108,14 @@ class Funcs(ColorDescriptor, Searcher):
 
         score = self._chi2_distance(feature_1, feature_2)
 
-        return score
+
+        mode_dict = { 'phash': imagehash.phash,'dhash': imagehash.dhash,
+                    'colorhash' : imagehash.colorhash,'average_hash' : imagehash.average_hash }
+        
+        hash_1 = mode_dict['colorhash'](Image.fromarray(img_1), 20)
+        hash_2 = mode_dict['colorhash'](Image.fromarray(img_2), 20)
+
+        return score, (hash_1 - hash_2)
 
     @staticmethod
     def calc_hash(img1, img2, mode):
