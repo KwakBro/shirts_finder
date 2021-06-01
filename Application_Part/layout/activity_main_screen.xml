@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:weightSum="5">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        app:srcCompat="@drawable/main_icon" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+
+        android:backgroundTint="@color/purple_500"
+        android:onClick="Btn_click_searching"
+        android:fontFamily="@font/nanumsqureeb"
+        android:text="검색 시작"
+        android:layout_margin="20sp"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/button_bsk"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+        android:layout_margin="20sp"
+        android:backgroundTint="@color/purple_500"
+        android:onClick="Btn_click_check_bsk"
+        android:fontFamily="@font/nanumsqureeb"
+        android:text="찜 목록 확인"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/button_order"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+        android:layout_margin="20sp"
+        android:backgroundTint="@color/purple_500"
+        android:onClick="Btn_click_check_order"
+        android:fontFamily="@font/nanumsqureeb"
+        android:text="주문 확인"
+        android:textSize="28sp"/>
+
+</LinearLayout>

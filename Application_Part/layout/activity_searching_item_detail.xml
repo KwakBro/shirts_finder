@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".searching_item_detail"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+    <ImageView
+        android:id="@+id/imageView_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="4"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="start|center"
+        android:paddingLeft="30sp"
+        android:text=" "
+        android:textSize="28sp"
+        android:layout_weight="1"
+        android:textColor="@color/purple_700"
+        android:visibility="visible" />
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address : "
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/nanumsqureeb"/>
+
+        <EditText
+            android:id="@+id/text_address"
+            android:layout_width="250sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center"
+            android:layout_margin="10sp"
+            android:textSize="20sp"
+            android:fontFamily="@font/nanumsqureeb"
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/nanumsqureeb"
+            android:text="Amount : " />
+
+        <EditText
+            android:id="@+id/text_numeric"
+            android:layout_width="50sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/nanumsqureeb"
+            />
+
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/Btn_to_basket"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="28sp"
+        android:onClick="Btn_click_buy"
+        android:text="구매하기" />
+
+    <Button
+        android:id="@+id/Btn_to_buy"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="28sp"
+        android:onClick="Btn_click_bsk"
+        android:text="찜 목록에 추가" />
+
+
+</LinearLayout>
