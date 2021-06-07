@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T07:59:18.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.6" etag="K5YHd97YksZYbgN7hl_b" type="github"><diagram id="jNIdjeSoIugJYhoh4bg0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-07T08:08:36.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Pz20xwNH2CcsvoE17pwZ" version="14.7.6" type="github">
+  <diagram id="jNIdjeSoIugJYhoh4bg0" name="Page-1">
+    <mxGraphModel dx="884" dy="1366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="83sHifAayFHs6LnQgk7p-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83sHifAayFHs6LnQgk7p-2" target="83sHifAayFHs6LnQgk7p-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="195" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-6" value="Application" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150.63" width="520" height="148.75" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-8" value="검색 모듈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-9" value="Server" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="85" y="360" width="630" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-10" value="찜 목록 조회 모듈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="190" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-11" value="주문 목록 조회 모듈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-15" value="의상&lt;br&gt;Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="650" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-16" value="아이템&lt;br&gt;Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="455" y="650" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-17" value="아이템&lt;br&gt;Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="650" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83sHifAayFHs6LnQgk7p-18" value="아이템&lt;br&gt;Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="650" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
