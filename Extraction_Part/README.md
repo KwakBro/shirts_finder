@@ -31,3 +31,5 @@ __`torch_Training.py`__
 >        └─ shirts-2.jpg   
 >            ...   
 > ```
+# 참고 문헌 및 코드 출처
+[PyTorch공식 문서](https://tutorials.pytorch.kr/intermediate/torchvision_tutorial.html)
