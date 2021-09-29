@@ -32,4 +32,5 @@ __`torch_Training.py`__
 >            ...   
 > ```
 # 참고 문헌 및 코드 출처
-[PyTorch공식 문서](https://tutorials.pytorch.kr/intermediate/torchvision_tutorial.html)
+[PyTorch 공식 문서](https://tutorials.pytorch.kr/intermediate/torchvision_tutorial.html)   
+[pytorch 공식 깃헙 - vision / references / detection ](https://github.com/pytorch/vision/tree/master/references/detection)
