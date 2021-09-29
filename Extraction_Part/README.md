@@ -35,6 +35,7 @@ __`torch_Training.py`__
 >        └─ shirts-2.jpg   
 >            ...   
 > ```
+
 # 참고 문헌 및 코드 출처
-[PyTorch 공식 문서](https://tutorials.pytorch.kr/intermediate/torchvision_tutorial.html)   
-[pytorch 공식 깃헙 - vision / references / detection ](https://github.com/pytorch/vision/tree/master/references/detection)
+> [PyTorch 공식 문서](https://tutorials.pytorch.kr/intermediate/torchvision_tutorial.html)   
+> [pytorch 공식 깃헙 - vision / references / detection ](https://github.com/pytorch/vision/tree/master/references/detection)
